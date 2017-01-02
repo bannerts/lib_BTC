@@ -5,7 +5,7 @@
 #   Binaries formed from hex cannot usually be decoded into unicode with utf-8
 #	Canonical Form: binary  
 
-from lib_BTC import CONSTANTS
+from .lib_BTC import CONSTANTS 
 import binascii
 
 class Digest:
