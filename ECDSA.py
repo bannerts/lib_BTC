@@ -13,7 +13,6 @@
 #        return (self.pubkey.point.x(), self.pubkey.point.y())
 #    ##  -- MODIFIED ABOVE
 
-# from ecdsa import SigningKey, SECP256k1
 from class_BTC import private_key, digest
 
 
