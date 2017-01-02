@@ -12,11 +12,11 @@ Include_hashlib = True
 
 ### Logic to include specific hash libraries ###
 if Include_PyCrypto:
-	from lib_BTC import Crypto_lib
+	from lib_BTC.lib_hash import Crypto_lib
 	hash_dict.update(Crypto_lib.hashes)	
 	
 if Include_hashlib:
-	from lib_BTC import hashlib_lib
+	from lib_BTC.lib_hash import hashlib_lib
 	hash_dict.update(hashlib_lib.hashes)	
 ### ---------------------------------------- ###
 	
