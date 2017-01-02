@@ -5,9 +5,9 @@
 #	References:
 #		https://en.bitcoin.it/wiki/Wallet_import_format
 
-from .lib_BTC import CONSTANTS
+from lib_BTC import CONSTANTS
 from class_BTC import digest as D
-from ecdsa import SigningKey, SECP256k1
+
 import hashlib, hashes
 
 
